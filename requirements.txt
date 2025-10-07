@@ -1,0 +1,5 @@
+streamlit
+crewai
+pydantic
+requests
+beautifulsoup4
