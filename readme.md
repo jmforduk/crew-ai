@@ -1,13 +1,13 @@
-# AI University Study Planner
+# 🎓 AI University Study Planner
 
 **CrewAI Flow app that plans your entire study abroad journey in 10 minutes**
 
 ## What it does
 
 Takes your study preferences and generates a complete plan with:
-- ?? **University research** - Rankings, costs, requirements  
-- ?? **Local living guide** - Housing, transport, daily costs
-- ?? **Timeline & budget** - Month-by-month action plan
+- 🎯 **University research** - Rankings, costs, requirements  
+- 🏠 **Local living guide** - Housing, transport, daily costs
+- 📅 **Timeline & budget** - Month-by-month action plan
 
 **Saves you 300+ hours** of manual research!
 
@@ -32,10 +32,10 @@ Set `OPENAI_API_KEY` or use free Ollama models.
 
 ## Why it's better
 
-- ? **Real data** - Authentic web search and scraping
-- ? **Current info** - Live data from university websites  
-- ? **Complete plan** - Universities + living + timeline
-- ? **Fast results** - 10 minutes vs 300+ hours manual
+- ✅ **Real data** - Authentic web search and scraping
+- ✅ **Current info** - Live data from university websites  
+- ✅ **Complete plan** - Universities + living + timeline
+- ✅ **Fast results** - 10 minutes vs 300+ hours manual
 
 ## Tech Stack
 
@@ -50,5 +50,4 @@ Built with **CrewAI** by João Moura and inspired by the AI agent community incl
 
 ---
 
-
-**Star ? if this helped you plan your study abroad!**
+**Star ⭐ if this helped you plan your study abroad!**
