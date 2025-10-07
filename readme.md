@@ -1,4 +1,4 @@
-# ?? AI University Study Planner
+# AI University Study Planner
 
 **CrewAI Flow app that plans your entire study abroad journey in 10 minutes**
 
@@ -46,8 +46,9 @@ Set `OPENAI_API_KEY` or use free Ollama models.
 
 ## Acknowledgments
 
-Built with **CrewAI** by Jo„o Moura and inspired by the AI agent community including [Tony Kipkemboi](https://www.tonykipkemboi.com/)'s educational content. Special thanks to the CrewAI team for creating such a powerful multi-agent framework!
+Built with **CrewAI** by Jo√£o Moura and inspired by the AI agent community including [Tony Kipkemboi](https://www.tonykipkemboi.com/)'s educational content. Special thanks to the CrewAI team for creating such a powerful multi-agent framework!
 
 ---
+
 
 **Star ? if this helped you plan your study abroad!**
