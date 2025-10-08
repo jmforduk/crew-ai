@@ -22,8 +22,8 @@ Three AI agents work together using **CrewAI Flow**:
 ## Quick Start
 
 ```bash
-git clone https://github.com/yourusername/ai-university-planner.git
-cd ai-university-planner
+git clone https://github.com/jmforduk/crew-ai.git
+cd crew-ai
 pip install -r requirements.txt
 streamlit run university_planner_app.py
 ```
