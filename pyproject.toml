@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "university-planner"
+version = "0.1.0"
+description = "AI University Study Planner powered by CrewAI Flow"
+readme = "readme.md"
+home-page = "https://github.com/jmforduk/crew-ai"
+license = { text = "MIT" }
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "streamlit>=1.20.0",
+    "crewai>=0.5.0",
+    "pydantic>=1.9.0",
+    "requests>=2.28.0",
+    "beautifulsoup4>=4.12.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.1.0",
+    "isort>=5.0.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["*.py"]
+
+[project.scripts]
+start = "main:main"
