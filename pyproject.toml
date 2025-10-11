@@ -3,7 +3,7 @@ name = "university-planner"
 version = "0.1.0"
 description = "AI University Study Planner powered by CrewAI Flow"
 readme = "readme.md"
-requires-python = ">=3.10,<3.13"
+requires-python = ">=3.11"
 dependencies = [
     "streamlit>=1.20.0",
     "crewai[tools]>=0.5.0",
