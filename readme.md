@@ -25,7 +25,7 @@ Three AI agents work together using **CrewAI Flow**:
 git clone https://github.com/jmforduk/crew-ai.git
 cd crew-ai
 pip install -r requirements.txt
-streamlit run university_planner_app.py
+streamlit run main.py
 ```
 
 Set `OPENAI_API_KEY` or use free Ollama models.
