@@ -1,0 +1,91 @@
+research_universities:
+  description: >
+    Research the best universities for {subject} at {study_level} level in the specified cities: {cities}.
+    Student origin: {origin}. Study period: {daterange}. Budget range: {budget_range}. Student interests: {interests}.
+    
+    Focus on finding detailed information about:
+    - University rankings and reputation for the specific program
+    - Program requirements and admission criteria with exact GPA, test scores needed
+    - Tuition fees per year and total program cost
+    - Application deadlines for 2025-2026 academic year
+    - Scholarship opportunities and financial aid
+    - Campus facilities and student life relevant to the program
+    - Graduate employment rates and starting salaries
+    - International student support services
+    
+    Use search_internet tool to find current 2025 information. Be specific with numbers, dates, and requirements.
+  expected_output: >
+    A comprehensive 800+ word report covering 5-10 top universities with detailed analysis of:
+    - Specific program rankings and reputation
+    - Exact admission requirements (GPA, test scores, prerequisites)
+    - Annual tuition costs and total program expenses
+    - Application deadlines and process timeline
+    - Available scholarships with eligibility criteria
+    - Campus facilities and student support services
+    - Graduate outcomes and career prospects
+    Include specific data points, costs, and deadlines for each university.
+
+local_living_guide:
+  description: >
+    Create a comprehensive local living guide for international students planning to study {subject} at {study_level} level.
+    Target cities: {cities}. Student origin: {origin}. Study period: {daterange}. Budget considerations: {budget_range}.
+    
+    Research and provide detailed information about:
+    - Housing options (on-campus dorms, off-campus apartments, shared housing) with specific monthly costs
+    - Transportation systems and monthly pass costs
+    - Daily living expenses breakdown (food, utilities, mobile phone, internet)
+    - Best neighborhoods for students with safety ratings
+    - Cultural insights and tips for international students from {origin}
+    - Healthcare system and insurance requirements
+    - Banking services and financial setup for international students
+    - Part-time work opportunities and regulations
+    - Student discounts and money-saving tips
+    
+    Use search_internet and scrape_website tools for current local pricing and information.
+  expected_output: >
+    A detailed 700+ word local living guide covering:
+    - Housing options with specific monthly rental costs and locations
+    - Transportation options with monthly costs and student discounts
+    - Monthly living expenses breakdown with actual prices
+    - Recommended neighborhoods with safety and convenience ratings
+    - Cultural adaptation tips specific to students from {origin}
+    - Essential services setup guide (banking, healthcare, mobile)
+    - Part-time work opportunities and legal requirements
+    - Money-saving strategies and student discounts
+    Include specific prices, locations, and practical step-by-step advice.
+
+create_timeline:
+  description: >
+    Create a detailed month-by-month timeline and comprehensive budget for the study abroad journey.
+    Program: {subject} at {study_level} level. Timeline: {daterange}. Target cities: {cities}. Origin: {origin}.
+    Budget range: {budget_range}.
+    
+    Based on the university research and local living guide, create:
+    - Month-by-month action plan with specific dates and deadlines
+    - Standardized test preparation and registration dates (GRE, GMAT, IELTS, TOEFL)
+    - University application timeline with deadlines
+    - Scholarship application deadlines
+    - Visa application process with required documents and timing
+    - Financial preparation milestones (loans, savings, documentation)
+    - Pre-departure preparations (housing, flights, insurance)
+    - Arrival and setup timeline for first month abroad
+    - Semester-by-semester academic milestones
+    - Complete budget breakdown with all costs calculated
+    
+    Use the calculate tool for budget calculations and search_internet for current timeline requirements.
+  expected_output: >
+    A comprehensive 1000+ word timeline document with:
+    - Month-by-month action plan with specific dates (12-18 months before departure to arrival)
+    - Test preparation and registration timeline with exact dates
+    - University application deadlines and requirements timeline
+    - Visa application process with document preparation schedule
+    - Financial milestones and budget accumulation plan
+    - Pre-departure checklist with timing
+    - First month arrival and setup plan
+    - Complete budget breakdown including:
+      * Pre-departure costs (tests, applications, visa, flights)
+      * Initial setup costs (housing deposit, initial purchases)
+      * Monthly living expenses during studies
+      * Emergency fund recommendations
+      * Total program cost projection
+    Format as a structured timeline with clear monthly milestones, deadlines, and calculated costs.
