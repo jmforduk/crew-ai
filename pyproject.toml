@@ -1,0 +1,24 @@
+[project]
+name = "university-planner"
+version = "0.1.0"
+description = "AI University Study Planner powered by CrewAI Flow"
+readme = "readme.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "streamlit>=1.20.0",
+    "crewai[tools]>=0.5.0",
+    "pydantic>=2.0.0",
+    "requests>=2.28.0",
+    "beautifulsoup4>=4.12.0"
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "black>=23.1.0",
+    "isort>=5.0.0"
+]
